@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/*googleips 웹폰트 css 파일 불러오기*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;900&display=swap');
+
+/*font-family: 'Noto Sans KR', sans-serif;*/
+
+@import url(https://fonts.googleapis.com/css?family=Galada|Nanum+Gothic|Nanum+Myeongjo);/*@infort는 css용으로 사용할 수 있음*/
+/*font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Galada', cursive; */
+
+/* 저장된 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;   (영어랑 숫자 언더바) 
+                src : url(../font/NanumGothic.ttf); }  *//*woff가 표준 ttf 보단, 웹폰트로 제공하지않는 웹사이트는 쓰지않는다*/
+/* 웹사이트의 글꼴 파일 선언*/
+/* @font-face { font-family : font_gothic;    
+                src : url(http://uhbee.com/nanum.eot) ; }   */
+
+
+* {margin:0; padding:0;}
+html{font-size: 16px;}/*모든 글자사이즈rem을 기준으로 제작을 함*/
+body{ font-size:16px;
+      color:#6f6f6f;
+      font-family: 'Nanum Gothic', sans-serif }/*위의 폰트링크를 걸면됨 위의 예시가 맞고 <-이렇게 하면 안됨*/
+ul, ol, li{list-style-type:none}
+img, fieldset{border:none;vertical-align: middle}
+hr {clear:both;border:none}
+a {color:inherit;text-decoration:none; outline: 0;}/*inherit는 엄마의 글자색에 따라가겠다는 말*/
+table{border-collapse:collapse}
+input, textarea, input::placeholder, textarea::placeholder {
+       color:inherit;font-size:inherit;
+       font-family:inherit;
+       vertical-align: middle;
+       outline: 0;}
+button{outline:0}/*클릭하거나 이동을하면 선이 생기거나 잡히는것이 outline 속성이다*/
+.sound_only{display: block; text-indent: -999999999999999px; height: 0;}
+
+
+
+/*******************************메인화면, 서브화면 공통영역*****************************************************************/
+#wrap{width: 100%;min-width: 1024px; overflow: hidden;}
+.inner{min-width: 1024px; max-width: 1280px; margin: 0 auto;}
+
+
+
+
+/*********************header****************************/
+#header #logo{
+      display: block;
+      float: left;
+      width: 100px;
+      margin-top: 40px;
+      margin-left: 70px;
+}
+#logo img{
+      width: 100%;
+}
+
+/**********nav***********/
+#nav .depth1{
+      float: right;
+      color: #000;
+      padding-top: 50px;
+      margin-right: 90px;
+      text-align: right;
+}
+#nav .depth1 p{
+      border-bottom: 2px solid#000;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      font-weight: 600;
+
+}
+#nav .nav_txt > li{
+      padding-bottom: 5px;
+
+}
+/*********************footer****************************/
