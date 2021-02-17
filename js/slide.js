@@ -2,7 +2,7 @@
       $(function(){
         $('.partner_info').click(function(){
          var img = $(this).find('img');//여러개의 partner_info중에서 하나만 하기 위해서 this를 씀
-         var img_src = img.attr('deta img');//attr은 태그들을 찾아주는 것이다 ''속에 잇는 값을 기억을 해 주는 것이다.
+         var img_src = img.attr('data_img');//attr은 태그들을 찾아주는 것이다 ''속에 잇는 값을 기억을 해 주는 것이다.
          var img_alt = img.attr('alt') //이미지의 설명을 찾는것
          var img_title = img.attr('title')//그림설명을 할 자리를 만듬 var에
             $('#modal').show();//열기
@@ -11,7 +11,7 @@
             $('#modal .txt_title').text(img_title);//4번 
         })
 
-        $('#modal #btn-close').click(function(){
+        $('#modal').click(function(){
             $('#modal').hide();//닫기
             //갤러리나 이미지에 사용하면 좋음 
         })
