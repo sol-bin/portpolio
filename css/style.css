@@ -39,7 +39,7 @@ h2{
     left:200px;
     right: 200px;
     top: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
     z-index: 9999;
     display: none;    /*이것때문에 화면이 안보임*/
     text-align: center;
@@ -257,7 +257,7 @@ h2{
     width: 75%;
     height: 20px;
     border-radius: 3px;
-    background-color:#000;
+    background-color:lightpink;
     position: absolute;
     content: '';
     display: block;
@@ -268,7 +268,7 @@ h2{
     width: 90%;
     height: 20px;
     border-radius: 3px;
-    background-color:#000;
+    background-color:lightpink;
     position: absolute;
     content: '';
     display: block;
@@ -279,7 +279,7 @@ h2{
     width: 90%;
     height: 20px;
     border-radius: 3px;
-    background-color:#000;
+    background-color:lightpink;
     position: absolute;
     content: '';
     display: block;
@@ -301,7 +301,7 @@ h2{
     width: 90%;
     height: 20px;
     border-radius: 3px;
-    background-color:#000;
+    background-color:lightpink;
     position: absolute;
     content: '';
     display: block;
