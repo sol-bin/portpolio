@@ -40,7 +40,7 @@ h2{
     right: 200px;
     top: 0;
     background: rgba(0, 0, 0, 0.8);
-    z-index: 9999;
+    z-index: 9999999999;
     display: none;    /*이것때문에 화면이 안보임*/
     text-align: center;
     overflow: auto;/*모달창안에 스크롤이 생김*/
@@ -176,6 +176,7 @@ h2{
 #sec3 .smalla.smallb  .whi  {  /* smalla 와 smallb 클래스를 같은 태그에 동시에 썼기 때문임*/
    
     background-color: #eee;
+    
 }
 
 #sec3{

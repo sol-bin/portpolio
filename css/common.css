@@ -50,6 +50,7 @@ button{outline:0}/*클릭하거나 이동을하면 선이 생기거나 잡히는
 #header{
       position: fixed;
       width: 100%;
+      z-index: 999999;
 }
 #header #logo{
       display: block;
